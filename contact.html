@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Premium desserts and custom cake Jakarta">
+    <meta name="keywords" content="dessert, cake, custom cake">
+    <meta name="author" content="Angelina Greace">
+    <title>ETA by Greta | Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="css/indexstyle.css">
+</head>
+<body>
+    <header>
+        <div class="container"> 
+            <div id="brand">
+                <img src="/images/customcakesanddesserts-logo.JPG" alt="ETA Desserts and Custom Cakes">
+            </div>
+           <nav class="topnav">
+               <ul>
+                   <li><a href="/index.html">Home</a></li>
+                   <li><a href="/products.html">Products</a></li>
+                   <li><a href="/gallery.html">Gallery</a></li>
+                   <li><a href="/blog.html">Blog</a></li>
+                   <li><a href="/menu.html">Menu</a></li>
+                   <li><a class="contact" href="/contact.html">Contact Us</a></li>
+               </ul>
+                
+           </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Contact Us</h1>
+        </div>
+    </section>
+
+    <section id="contactpage">
+        <h2>Hi, we want to keep in touch with you. Please leave a message for us and we'll get back to you as soon as possible. <br> Or you can contact our Whatsapp at <a href="https://wa.link/pdbp84" id="whatsapp">0818685568.</a></h2>
+        <form action="contact.php" method="POST">
+            <div class="contactform">
+                <label for="newCustomer">New Customer?</label>
+                    <input id="yes-radio" type="radio" name="newCustomer" value="yes">
+                    <label class="radio" for="yes-radio">Yes</label>
+                    <input id="no-radio" type="radio" name="newCustomer" value="no">
+                    <label class="radio" for="no-radio">No</label>
+            </div>
+
+            <div class="contactform">
+                <label>Name</label>
+                <input type="text" name="firstName" >
+            </div>
+
+            <div class="contactform">
+                <label>Phone Number</label>
+                <input type="number" name="age">
+            </div>
+
+            <div class="contactform">
+                <label>Email</label>
+                <input type="email" name="email">
+            </div>
+
+            <div class="contactform">
+                <label>Subject</label>
+                <select name ="subject" id="subject">
+                    <option value="orderInquirySignature">Order Inquiry for Signature Cakes</option>
+                    <option value="orderInquiryCustom">Order Inquiry for Custom Cakes</option>
+                    <option value="commentsAndSuggestions">Comments and Suggestions</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="contactform">
+                <label>Message</label>
+                <textarea name="message">
+                </textarea>
+            </div>
+
+            <div class="contactform">
+                <label for="contactPrefence">Contact Preference</label>
+                <input id="phoneCall" type="checkbox" name="checkbox" value="Phone Call">
+                <label class="checkbox" for="makanPagi">Phone Call</label>
+                <input id="whatsapp" type="checkbox" name="checkbox" value="Whatsapp">
+                <label class="checkbox" for="makanSiang">Whatsapp</label>
+                <input id="email" type="checkbox" name="checkbox" value="Email">
+                <label class="checkbox" for="makanMalam">Email</label>
+            </div>
+
+            <div class="contactform">
+                <input class="button" type="submit" name="submit" value="Submit">
+            </div>
+        </form>
+    </section>
+    <footer>
+        <p>ETA by Greta, Copyright &copy; 2020</p>
+    </footer>   
+</body>
+</html>
