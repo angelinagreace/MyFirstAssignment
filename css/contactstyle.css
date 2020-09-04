@@ -1,0 +1,44 @@
+.contactform {
+    padding:5px;
+    margin:5px 0;
+}
+
+#contactpage h2 {
+    color: #212f3d;
+    font-size: 16px;
+}
+
+label {
+    display: inline-block;
+    width:200px;
+    text-align: left;
+}
+
+.radio {
+    text-align: left;
+    width: auto;
+}
+
+.checkbox{
+    text-align: left;
+    width: auto;
+}
+
+select, textarea { 
+    width: 250px;
+}
+
+.button {
+    background-color: palevioletred ;
+    color: white;
+    height: 25px;
+    padding-left:20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    border:0;
+}
+
+.button:hover {
+    font-weight: bold;
+}

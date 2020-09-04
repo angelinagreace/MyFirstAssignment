@@ -1,0 +1,38 @@
+#blog {
+    background-image: url(/images/pattern.jpg);
+}
+
+#blog img {
+    width: 500px;
+}
+
+.imgblog {
+    width: 500px;
+    background-color:white;
+    border-style: solid;
+    border-width: 2px;
+    border-color:#212f3d;
+    padding: 10px;
+    margin: 50px 5px 50px 5px;
+    display: inline-block;
+}
+
+.blogtitle { 
+    padding: 10px;
+    background-color:palevioletred;
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+.blogpost {
+    background-color:white;
+    color:black;
+    font-size: 16px;
+}
+
+.blogcontent {
+    padding-left: 50px;
+    font-size: 15px;
+}
